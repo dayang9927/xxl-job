@@ -1,10 +1,10 @@
 <p align="center" >
     <img src="https://www.xuxueli.com/doc/static/xxl-job/images/xxl-logo.jpg" width="150">
-    <h3 align="center">XXL-JOB</h3>
+    <h3 align="center">全面解析XXL-JOB 2.3.1-SNAPSHOT</h3>
     <p align="center">
-        XXL-JOB, a distributed task scheduling framework.
+        此项目是 [xuxueli/xxl-job] 的分支，旨在全面解析XXL-JOB,提供全面的源码解析，并为源码添加详细的中文注释。
         <br>
-        <a href="https://www.xuxueli.com/xxl-job/"><strong>-- Home Page --</strong></a>
+        <a href="https://www.xuxueli.com/xxl-job/"><strong>-- 原项目Home Page --</strong></a>
         <br>
         <br>
         <a href="https://github.com/xuxueli/xxl-job/actions">
@@ -32,11 +32,29 @@
 </p>
 
 
-## Introduction
-XXL-JOB is a distributed task scheduling framework. 
-It's core design goal is to develop quickly and learn simple, lightweight, and easy to expand. 
-Now, it's already open source, and many companies use it in production environments, real "out-of-the-box".
 
-XXL-JOB是一个分布式任务调度平台，其核心设计目标是开发迅速、学习简单、轻量级、易扩展。现已开放源代码并接入多家公司线上产品线，开箱即用。
 
-XXL-JOB源码解析，添加中文注释。
+
+### 写在前面
+
+致敬，原理分析，架构图
+
+### 分析方式
+
+使用逆向分析方法
+
+### SPRING-BOOT执行器包结构
+
+```tex
+├─java
+│  └─com
+│      └─xxl
+│          └─job
+│              └─executor
+│                  ├─core.config.XxlJobConfig.java           #执行器配置类
+│                  └─service.jobhandler.SampleXxlJob.java    #执行器任务开发示例
+│                  └─XxlJobExecutorApplication               #执行器主启动类
+└─resources
+    └─application.properties                                 #application
+```
+
