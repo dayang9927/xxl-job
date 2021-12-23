@@ -1,5 +1,4 @@
 <p align="center" >
-    <img src="https://www.xuxueli.com/doc/static/xxl-job/images/xxl-logo.jpg" width="150">
     <h3 align="center">全面解析XXL-JOB 2.3.1-SNAPSHOT</h3>
     <p align="center">
         此项目是 [xuxueli/xxl-job] 的分支，旨在全面解析XXL-JOB,提供全面的源码解析，并为源码添加详细的中文注释。
